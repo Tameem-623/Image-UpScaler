@@ -49,15 +49,15 @@ def upscale_image(image: Image.Image) -> None:
     pipeline = load_model()
 
     # Define prompt
-    prompt = "A cat picture"
+    prompt = "A brown cat"
     
     # Upscale the image
     upscaled_image = model_upscale_image(pipeline, image, prompt)
-
+    upscaled_image.save("upsampled_cat.png")
     col2.info("Image upscaled successfully!")
     
     # Display upscaled image
-    col1.image(image, caption='Upscaled Image', width=300)
+    col1.image(upscaled_image, caption='Upscaled Image', width=300)
 
 def image_uploader() -> Image.Image:
     """
