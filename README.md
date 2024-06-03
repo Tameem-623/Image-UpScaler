@@ -1,6 +1,7 @@
 # Image UpScaler
 
 Image UpScaler is a tool designed to enhance the resolution and quality of images. It utilizes **Stable Diffusion x4 upscaler model** to upscale images while preserving as much detail as possible.
+![Sample UI Demo](/App-UI-Demo.png)
 
 ## Getting Started
 
