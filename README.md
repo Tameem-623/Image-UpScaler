@@ -2,7 +2,6 @@
 
 Image UpScaler is a tool designed to enhance the resolution and quality of images. It utilizes **Stable Diffusion x4 upscaler model** to upscale images while preserving as much detail as possible.
 ![Sample UI Demo](/App-UI-Demo.png)
-
 ## Getting Started
 
 To get started with Image UpScaler, follow these steps:
@@ -10,7 +9,7 @@ To get started with Image UpScaler, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/image-upscaler.git
+   git clone https://github.com/tameem-623/image-upscaler.git
    ```
 
 2. Navigate to the project directory:
